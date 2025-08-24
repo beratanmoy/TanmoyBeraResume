@@ -1,0 +1,257 @@
+@charset "utf-8";
+@media screen and (min-width: 1440px) {
+
+    /* menu */
+    #desktop-menu {
+        padding: 0 24px;
+    }
+
+    #desktop-menu li {
+        list-style: none;
+        padding: 32px 0;
+    }
+
+    #desktop-menu li a {
+        font-size: 24px;
+        padding: 32px
+    }
+
+    .title a {
+        font-size: 48px;
+    }
+
+    /* hero text  */
+    .sliderLabel h1 {
+        font-size: 96px;
+    }
+
+    .picTwoPara {
+        font-size: 36px;
+    }
+
+    .sliderLabel button {
+        width: fit-content;
+        height: 72px;
+        padding: 16px 72px;
+        font-size: 24px;
+    }
+
+    .sliderLabel button:hover {
+        border: 5px solid #A50036;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /* menu  */
+    #desktop-menu {
+        display: flex;
+        z-index: 2;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* menu  */
+    .slicknav_menu {
+        display: block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    #desktop-menu {
+        display: none;
+    }
+
+    .aboutUs {
+        flex-direction: column;
+    }
+
+    .aboutUs .imgbox {
+        width: 100%;
+    }
+
+    .aboutUs .aboutUsText {
+        width: 100%;
+    }
+
+    /* hero text  */
+    .sliderLabel h1 {
+        font-size: 36px;
+    }
+
+    .picTwoPara {
+        font-size: 25px;
+    }
+
+    .sliderLabel button {
+        width: fit-content;
+        height: 40px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .sliderLabel button:hover {
+        color: #EC003F;
+        background-color: #fff;
+        border: 2px solid #A50036;
+    }
+
+    /* Our Clients */
+    .titleBox h2 {
+        font-size: 20px;
+    }
+
+    /* contact */
+    .contact {
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact .left {
+        position: inherit;
+        width: 100%;
+        top: inherit;
+        left: inherit;
+        justify-content: inherit;
+    }
+
+    .contact .right {
+        width: 100%;
+    }
+
+    .contactUs {
+        margin-left: inherit;
+    }
+
+    /* my skills  */
+    .my-skills {
+        flex-direction: column;
+    }
+
+    .mySkillsBox1,
+    .mySkillsBox2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* hero text  */
+    .sliderLabel h1 {
+        font-size: 24px;
+        text-shadow: 2px 1px #EC003F;
+    }
+
+    .picTwoPara {
+        font-size: 16px;
+    }
+
+    .sliderLabel button {
+        width: fit-content;
+        height: 25px;
+        padding: 6px 30px;
+        font-size: 10px;
+    }
+
+    .sliderLabel button:hover {
+        color: #EC003F;
+        background-color: #fff;
+        border: 2px solid #A50036;
+    }
+
+    /* clients Sliders  */
+    .titleBox h2 {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .titleBox .title-line {
+        width: 40%;
+        height: 2px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        color: #EC003F;
+        font-size: 18px;
+    }
+
+    .slick-arrow {
+        margin-top: 0;
+    }
+
+    .slick-prev {
+        left: -24px;
+    }
+
+    /* about Us */
+    .aboutUs {
+        padding: 16px;
+        width: 90%;
+    }
+
+    /* Services Skils  */
+    .ServicesSkils {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ServicesSkils .box {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #A50036;
+    }
+
+    .ServicesSkils .box p {
+        margin: 6px 0;
+        text-align: justify;
+    }
+
+    .my-skills {
+        width: 90%;
+    }
+
+    /* people Say Box */
+    .peopleSay {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .peopleSayBox {
+        gap: 6px;
+    }
+    .peopleSayBox .box {
+        flex-direction: column;
+    }
+    .peopleBox .slick-slide {
+        margin: 0 5px;
+    }
+    .peopleSayBox .nameBox p {
+        font-size: 12px;
+    }
+    .peopleBox .slick-slide {
+        margin: 0 5px;
+        padding: 8px;
+    }
+
+    /* contact */
+    .contact .left {
+        flex-direction: column;
+    }
+    .contact .infoBox {
+        width: 100%;
+    }
+    .contact .right {
+        padding: 16px;
+    }
+}
